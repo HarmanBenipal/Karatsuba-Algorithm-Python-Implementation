@@ -43,9 +43,6 @@ To handle the different length case, we append 0’s in the beginning by using z
 
 This algorithm is called Karatsuba algorithm.
 
-
-2. Done in python file and explained above in point 1.
-
 In formula, there are four multiplications of size n/2, so we basically divided the problem of size n into four sub-problems of size n/2. But that doesn’t help because solution of recurrence T(n) = 4T(n/2) + O(n) is O(n^2). 
 
 AB=10^n *A1*B1 + 10^n/2*(A1*B2 + A2*B1) + A2*B2
@@ -68,8 +65,6 @@ So, the final value of AB becomes
 With above modification, the recurrence becomes T(n) = 3T(n/2) + O(n) and solution of this recurrence is O(n1.59) that is approximately equals to O(n). This has improved the efficiency of algorithm using.
 
 A1_B1 = numberMultiplication(A1, B1)        # recursive call to multiply A1 and B1 part A2_B2 = numberMultiplication(A2, B2)        # recursive call to multiply A2 and B2 part P = numberMultiplication(int(A1) + int(A2), int(B1) + int(B2)) )        # recursive call to multiply A1+A2 and B1+B2 part
-
-3. “Multiplying big integers has applications to data security, where big integers are used in encryption schemes.”. Substantiate the above  statement  with  one example.
 
 A common computation in many cryptographic systems is the multiplication of large integers. For instance, real-world uses of the RSA cryptosystem often involve 1024-bit, 2048-bit, or even 3072-bit keys; hence, RSA encryption and decryption with such keys involves the multiplication of large integers having these bit lengths. In fact, the U.S. National Institute for Standards and Technology (NIST) has argued that to achieve a high level of security for the RSA cryptosystem one should use 15,360-bit keys. Thus, from an algorithmic viewpoint, improving the running time for integer multiplication can result in faster and more secure cryptographic protocols involving large integers.
 
