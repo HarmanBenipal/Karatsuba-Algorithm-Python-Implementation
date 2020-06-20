@@ -1,0 +1,75 @@
+1st number, A: 223245
+2nd number, B: 123456
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 223245  A1 : 223 A2 : 245
+B : 123456  B1 : 123 B2 : 456
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 223  A1 : 2 A2 : 23
+B : 123  B1 : 1 B2 : 23
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 23  A1 : 2 A2 : 3
+B : 23  B1 : 2 B2 : 3
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 25  A1 : 2 A2 : 5
+B : 24  B1 : 2 B2 : 4
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 245  A1 : 2 A2 : 45
+B : 456  B1 : 4 B2 : 56
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 45  A1 : 4 A2 : 5
+B : 56  B1 : 5 B2 : 6
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 09  A1 : 0 A2 : 9
+B : 11  B1 : 1 B2 : 1
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 47  A1 : 4 A2 : 7
+B : 60  B1 : 6 B2 : 0
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 11  A1 : 1 A2 : 1
+B : 06  B1 : 0 B2 : 6
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 468  A1 : 4 A2 : 68
+B : 579  B1 : 5 B2 : 79
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 68  A1 : 6 A2 : 8
+B : 79  B1 : 7 B2 : 9
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 14  A1 : 1 A2 : 4
+B : 16  B1 : 1 B2 : 6
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 72  A1 : 7 A2 : 2
+B : 84  B1 : 8 B2 : 4
+--------------------------------
+Intermediate Values of A1, B1 after partition:
+--------------------------------
+A : 09  A1 : 0 A2 : 9
+B : 12  B1 : 1 B2 : 2
+--------------------------------
+Result: > 223245  x 123456  = 27560934720
+--------------------------------
